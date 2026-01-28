@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/folderCard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="10dp"
+    app:rippleColor="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/folderPic"
+            app:srcCompat="@drawable/ic_folder_filled"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            style="@style/cardViewImageStyle"/>
+
+        <TextView
+            android:id="@+id/folderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="folder name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt_sxl"
+            android:textStyle="bold"
+            style="@style/folderItemStyle"/>
+
+        <TextView
+            android:id="@+id/folderMediaCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="folder media count"
+            style="@style/folderItemStyle" />
+
+        <TextView
+            android:id="@+id/folderSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="folder name"
+            style="@style/folderItemStyle"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

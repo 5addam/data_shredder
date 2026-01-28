@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/display_header">
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="hidden"
+            app:title="@string/display_title"
+            app:summaryOff="@string/display_summery_off"
+            app:summaryOn="@string/display_summary_on"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/deletion_header">
+
+        <ListPreference
+            app:defaultValue="0"
+            app:key="algorithm"
+            app:title="@string/alog_title"
+            app:entries="@array/deletion_alog_entries"
+            app:entryValues="@array/deletion_alog_values"
+            app:useSimpleSummaryProvider="true"
+            />
+        <CheckBoxPreference
+            app:defaultValue="true"
+            app:title="@string/delete_thumbnail"
+            app:key="delete_thumbnail"
+            app:summaryOff="@string/delete_summery_off"
+            app:summaryOn="@string/delete_summery_on"/>
+
+        <ListPreference
+            app:defaultValue="delete_files"
+            app:entries="@array/deletion_type_entries"
+            app:entryValues="@array/deletion_type_values"
+            app:key="type"
+            app:title="@string/deletion_type"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/languages_header">
+        <ListPreference
+            android:defaultValue="en-usa"
+            app:entries="@array/lang_entries"
+            android:entryValues="@array/lang_values"
+            app:key="language"
+            app:title="@string/language_title"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

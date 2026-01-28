@@ -1,0 +1,154 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorAccent">@color/maroon</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="MaterialTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorAccent">@color/maroon</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.MaterialComponents.Light.ActionBar.Solid">
+        <item name="background">@color/orange</item>
+        <item name="titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/orange</item>
+        <item name="titleTextColor">@color/orange</item>
+    </style>
+
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:minWidth">36dp</item>
+        <item name="android:minHeight">36dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+
+
+    <style name="spotAlertDailogTextApperance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+<!--    <style name="spotAlertDailog" parent="android:Theme.DeviceDefault.Dialog">-->
+<!--        <item name="DialogTitleAppearance">@style/spotAlertDailogTextApperance</item>-->
+<!--        <item name="DialogTitleText">Loading…</item>-->
+<!--        <item name="DialogSpotColor">@color/white</item>-->
+<!--        <item name="DialogSpotCount">4</item>-->
+<!--    </style>-->
+
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle</item>
+    </style>
+
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <!--    ProgressDialog style-->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <!--Fragment actionbar title apperance-->
+    <style name="TitleApperance">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!---Media folder Details Style-->
+    <style name="mediaFolderDetails">
+        <item name="android:textSize">@dimen/txt_sxl</item>
+        <item name="fontFamily">@font/average_sans</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!---Folder Item Details Style-->
+    <style name="folderItemStyle">
+        <item name="android:textSize">@dimen/txt_s</item>
+        <item name="android:textColor">@color/maroon</item>
+        <item name="android:gravity">center</item>
+        <item name="maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!---CardView Image Style-->
+    <style name="cardViewImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="maxWidth">80dp</item>
+        <item name="maxHeight">60dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!--About us text style-->
+    <style name="about_us_txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+<!--        <item name="android:textSize">15sp</item>-->
+        <item name="fontFamily">@font/average_sans</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!---Empty Message Style -->
+    <style name="emptyMessageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+<!--        <item name="android:textColor">@color/colorText</item>-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_delete_forever</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+</resources>

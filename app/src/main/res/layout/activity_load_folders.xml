@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadFoldersActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/view_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical|start"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="@dimen/header_item_v_padding"
+        >
+        <TextView
+            android:id="@+id/txt_noOfFolders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/mediaFolderDetails"
+            android:text="No. of Folders: 2 Folders" />
+        <TextView
+            android:id="@+id/txt_noOfFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_noOfFolders"
+            style="@style/mediaFolderDetails"
+            android:text="No. of files: 20 files"
+           />
+        <TextView
+            android:id="@+id/txt_totalMediaSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_noOfFiles"
+            style="@style/mediaFolderDetails"
+            android:text="Total Size: 20 GB"
+           />
+    </RelativeLayout>
+
+    <include layout="@layout/base_recycler_view"/>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_gravity="center"
+        style="@style/emptyMessageStyle"/>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<resources>
+
+    <!--- App Name -->
+    <string name="app_name">Shredder - Data Sanitizer</string>
+
+    <string name="shreddit_title">Shredder - Data Sanitizer</string>
+
+    <string name="empty_message_images">No Images on this device</string>
+    <string name="empty_message_audios">No Audios on this device</string>
+    <string name="empty_message_videos">No Videos on this device</string>
+    <string name="empty_message_files">No Files on this device</string>
+    <string name="folderName">Folder Name</string>
+    <string name="Delete">Delete</string><!--    HOME FRAGMENT ITEMS -->
+    <string name="islamabad_pakistan">Linz, Austrioa</string>
+    <string name="title_activity_main">MainActivity</string><!--    ABOUT US FRAGMENT ITEM-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shredder - Data Recovery</string>
+    <string name="nav_header_subtitle">justuju.studio@gmail.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="media_files">Media Files</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="external_storage">External Storage</string>
+
+    <string name="cloud_storage">CLOUD STORAGE</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="home_title">Data Shredder</string>
+
+    <string name="images">Images</string>
+    <string name="audios">Audios</string>
+    <string name="videos">Videos</string>
+    <string name="documents">Documents</string>
+    <string name="contacts">Contacts</string>
+    <string name="sms">Messages</string>
+
+
+    <string name="delete_files">Delete files</string>
+    <string name="scrap_files">Scrap files content</string>
+    <string name="overwrite_zero">Overwrite Zeros (1 pass)</string>
+    <string name="overwrite_one">Overwrite Ones (1 pass)</string>
+    <string name="overwrite_random">Overwrite Random (1 pass)</string>
+    <string name="british_hmg">British HMG IS5 (3 pass)</string>
+    <string name="dod_3pass">DoD 5220.22-M (E) (3 pass)</string>
+    <string name="russian_gost">Russian Standard – GOST–R–50739–95 </string>
+    <string name="schneier_algo">Bruce Schneier\'s algorithm (7 pass)</string>
+    <string name="german_vsitr">German VSITR (7 pass)</string>
+    <string name="lang_eng">English</string>
+    <string name="lang_ur">Urdu</string>
+
+    <string name="selected_item">Items</string>
+
+    <string name="storage_read_write_permissions">All Read/Write Permissions are required</string>
+    <string name="contacts_read_write_permission">Contacts Read/Write Permissions are required</string>
+    <string name="delete_contacts">Delete Contacts</string>
+    <string name="delete_contacts_message">Do you want to delete all contacts?</string>
+    <string name="wait_message">Please wait...</string>
+    <string name="total_size">Total Size: </string>
+    <string name="number_of_files">Number of files: </string>
+    <string name="number_of_folders">Number of Folders: </string>
+    <string name="shredding_message">Are you sure you want to permanently delete (CANNOT be recovered later) selected item(s)?</string>
+    <string name="shredding_data">Shredding data…</string>
+    <string name="select_item_message">Please select at least one item.</string>
+    <string name="shredding_success_zero">Shredding Successful: Overwritten Zeros (1 pass)</string>
+    <string name="shredding_success_one">Shredding Successful: Overwritten Ones (1 pass)</string>
+    <string name="shredding_success_random">Shredding Successful: Overwritten Random (1 pass)</string>
+    <string name="shredding_success_british_hmg">Shredding Successful: British HMG IS5 (3 pass)</string>
+    <string name="shredding_success_dod_3pass">Shredding Successful: DoD 5220.22-M (E) (3 pass)</string>
+    <string name="shredding_success_russian_gost">Shredding Successful: Russian Standard – GOST–R–50739–95 </string>
+    <string name="shredding_success_schneier_algo">Shredding Successful: Bruce Schneier\'s Algorithm (7 pass)</string>
+    <string name="shredding_success_german_vsitr">Shredding Successful: German VSITR (7 pass)</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <!-- Preference Titles -->
+    <string name="display_header">Display Settings</string>
+    <string name="deletion_header">Deletion Settings</string>
+    <string name="languages_header">Languages</string>
+    <string name="language_title">Select Language</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="alog_title">Deletion standard</string>
+    <string name="delete_thumbnail">Delete thumbnails</string>
+    <string name="deletion_type">Deletion type</string>
+
+
+    <!--- About Us -->
+    <string name="about_us_whatsapp">WhatsApp</string>
+    <string name="about_us_mobile">Mobile</string>
+    <string name="about_us_location">Location</string>
+    <string name="about_us_email">Email</string>
+
+    <string name="about_us_whatsapp_value">**** *** *******</string>
+    <string name="about_us_mobile_value">**** *** *******</string>
+    <string name="about_us_location_value">Linz, Austria</string>
+    <string name="about_us_email_value">justuju.studios@gmail.com</string>
+    <string name="home">Home</string>
+    <string name="select_all">Select All</string>
+    <string name="display_title">Display hidden files</string>
+    <string name="delete_summery_off">Don\'t delete</string>
+    <string name="delete_summery_on">Delete automatically</string>
+    <string name="display_summery_off">Hidden</string>
+    <string name="display_summary_on">Displayed</string>
+    <string name="splash_message">Shred your data with</string>
+    <string name="ncfl">Justuju</string>
+    <string name="dod_failed_1pass">Shredding with DoD 5220.22-M (E) was unsuccessful (after 1 pass). Please try again.</string>
+    <string name="dod_failed_2pass">Shredding with DoD 5220.22-M (E) was unsuccessful ((after 2 pass)). Please try again.</string>
+    <string name="feature_not_available">This feature will be available in the next version.</string>
+    <string name="about">About Us</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Text Sizes-->
+    <dimen name="txt_s">10sp</dimen>
+    <dimen name="txt_sm">12sp</dimen>
+    <dimen name="txt_sl">14sp</dimen>
+    <dimen name="txt_sxl">16sp</dimen>
+    <dimen name="txt_m">18sp</dimen>
+    <dimen name="txt_l">22sp</dimen>
+    <dimen name="txt_xl">24sp</dimen>
+    <dimen name="txt_xxl">48sp</dimen>
+
+
+    <!--    header item padding-->
+    <dimen name="header_item_v_padding">24dp</dimen>
+
+    <!--    item padding-->
+    <dimen name="item_v_padding">30dp</dimen>
+    <dimen name="item_h_padding">18dp</dimen>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<resources>
+    <array name="main_item_images">
+        <item>@drawable/ic_multimedia</item>
+        <item>@drawable/ic_internal_storage_filled</item>
+<!--        <item>@drawable/ic_external_storage_filled</item>-->
+
+    </array>
+
+    <array name="aboutus_item_icons">
+        <item>@drawable/ic_call</item>
+        <item>@drawable/ic_email</item>
+        <item>@drawable/ic_whatsapp</item>
+        <item>@drawable/ic_location</item>
+    </array>
+
+
+    <string-array name="media_titles">
+        <item>@string/images</item>
+        <item>@string/audios</item>
+        <item>@string/videos</item>
+        <item>@string/documents</item>
+<!--        <item>@string/contacts</item>-->
+<!--        <item>@string/sms</item>-->
+    </string-array>
+
+    <!--    HOME FRAGMENT ITEMS -->
+    <string-array name="main_item_titles">
+        <item>@string/media_files</item>
+        <item>@string/internal_storage</item>
+<!--        <item>@string/external_storage</item>-->
+<!--        <item>WhatsApp</item>-->
+<!--        <item>Cloud Storage</item>-->
+<!--        <item>Free Space</item>-->
+    </string-array>
+    <!--    ABOUT US FRAGMENT ITEM-->
+    <string-array name="aboutus_item_titles">
+        <item>@string/about_us_mobile_value</item>
+        <item>@string/about_us_email_value</item>
+        <item>@string/about_us_whatsapp_value</item>
+        <item>@string/about_us_location_value</item>
+    </string-array>
+    <string-array name="aboutus_item_types">
+        <item>@string/about_us_mobile</item>
+        <item>@string/about_us_email</item>
+        <item>@string/about_us_whatsapp</item>
+        <item>@string/about_us_location</item>
+    </string-array>
+
+    <!-- Reply Preference -->
+    <string-array name="deletion_type_entries">
+        <item>@string/delete_files</item>
+        <item>@string/scrap_files</item>
+    </string-array>
+    <string-array name="deletion_type_values">
+        <item>delete_files</item>
+        <item>scrap_files</item>
+    </string-array>
+
+    <string-array name="deletion_alog_entries">
+        <item>@string/dod_3pass</item>
+        <item>@string/british_hmg</item>
+        <item>@string/russian_gost</item>
+        <item>@string/schneier_algo</item>
+        <item>@string/german_vsitr</item>
+        <item>@string/overwrite_zero</item>
+        <item>@string/overwrite_one</item>
+        <item>@string/overwrite_random</item>
+    </string-array>
+    <string-array name="deletion_alog_values">
+        <item>dod_3pass</item>
+        <item>british_hmg</item>
+        <item>russian_gost</item>
+        <item>schneier_algo</item>
+        <item>german_vsitr</item>
+        <item>0</item>
+        <item>1</item>
+        <item>random</item>
+    </string-array>
+
+    <string-array name="lang_entries">
+        <item>@string/lang_eng</item>
+        <item>@string/lang_ur</item>
+    </string-array>
+
+    <string-array name="lang_values">
+        <item>en-usa</item>
+    </string-array>
+</resources>
